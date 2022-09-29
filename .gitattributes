@@ -1,3 +1,4 @@
+#
 # Linux start script should use lf
 /gradlew        text eol=lf
 
