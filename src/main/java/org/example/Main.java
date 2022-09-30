@@ -36,7 +36,7 @@ class myownclass {
         return num * num * num * num;
     }
 
-    public static int fifthpowe(int num) {
+    public static int fifthpower(int num) {
 
         return num * num * num * num * num;
     }
