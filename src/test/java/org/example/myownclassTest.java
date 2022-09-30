@@ -33,4 +33,24 @@ class myownclassTest {
     void square() {
         Assertions.assertEquals(9,myCLASS.square(3));
     }
+    @Test
+    void cube() {
+        Assertions.assertEquals(27,myCLASS.cube(3));
+    }
+    @Test
+    void quad() {
+        Assertions.assertEquals(81,myCLASS.quad(3));
+    }
+    @Test
+    void fifthpower() {
+        Assertions.assertEquals(243,myCLASS.fifthpower(3));
+    }
+    @Test
+    void sixthpower() {
+        Assertions.assertEquals(829,myCLASS.sixthpower(3));
+    }
+    @Test
+    void printitself() {
+        Assertions.assertEquals(3,myCLASS.printitself(3));
+    }
 }
