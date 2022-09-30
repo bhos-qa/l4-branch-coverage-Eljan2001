@@ -1,6 +1,6 @@
 package org.example;
 
-class myownclass {
+class Myownclass1$ {
     static int addNumbers(int a, int b) {
         int sum = a + b;
         return sum;

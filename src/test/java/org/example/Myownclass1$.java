@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class myownclassTest {
+class Myownclass1$ {
 
     myownclass myCLASS = new myownclass();
 
