@@ -26,31 +26,7 @@ class myownclass {
         return num * num;
     }
 
-    public static int cube(int num) {
 
-        return num * num * num;
-    }
-
-    public static int quad(int num) {
-
-        return num * num * num * num;
-    }
-
-    public static int fifthpower(int num) {
-
-        return num * num * num * num * num;
-    }
-
-    public static int sixthpower(int num) {
-
-        return num * num * num * num * num * num;
-    }
-
-    public static int printitself(int num) {
-
-        // return statement
-        return num;
-    }
 }
 
 
