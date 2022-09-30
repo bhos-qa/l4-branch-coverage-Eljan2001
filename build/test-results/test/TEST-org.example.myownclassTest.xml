@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<testsuite name="org.example.myownclassTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-09-30T07:23:40" hostname="BEST-KOMP" time="0.042">
+  <properties/>
+  <testcase name="subtractNumbers()" classname="org.example.myownclassTest" time="0.03"/>
+  <testcase name="square()" classname="org.example.myownclassTest" time="0.002"/>
+  <testcase name="divideNumbers()" classname="org.example.myownclassTest" time="0.001"/>
+=======
 <testsuite name="org.example.myownclassTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-09-30T08:22:19" hostname="BEST-KOMP" time="0.038">
   <properties/>
   <testcase name="subtractNumbers()" classname="org.example.myownclassTest" time="0.031"/>
   <testcase name="square()" classname="org.example.myownclassTest" time="0.001"/>
   <testcase name="divideNumbers()" classname="org.example.myownclassTest" time="0.0"/>
+>>>>>>> d6490b2a218f436c11cd0cb005d4b3a63a10be37
   <testcase name="addNumbers()" classname="org.example.myownclassTest" time="0.001"/>
-  <testcase name="multiplyNumbers()" classname="org.example.myownclassTest" time="0.001"/>
+  <testcase name="multiplyNumbers()" classname="org.example.myownclassTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
