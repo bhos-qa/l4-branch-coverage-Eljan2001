@@ -8,9 +8,9 @@
 name: JAVA CI
 on:
   push:
-    branches: ['feature/lab4']
+    branches: ['develop']
   pull_request:
-    branches: ['feature/lab4']
+    branches: ['develop']
 jobs:
   build:
     name: Build
