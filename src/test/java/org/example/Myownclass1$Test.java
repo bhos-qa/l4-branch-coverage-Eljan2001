@@ -48,6 +48,5 @@ class Myownclass1$Test {
         Assertions.assertEquals(36,myCLASS.square(6));
         Assertions.assertEquals(100,myCLASS.square(10));
     }
-    @Test
 
 }
