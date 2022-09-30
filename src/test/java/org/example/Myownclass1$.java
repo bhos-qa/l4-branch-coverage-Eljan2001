@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class Myownclass1$ {
 
-    myownclass myCLASS = new myownclass();
+    Myownclass1$ myCLASS = new Myownclass1$();
 
     @Test
     void addNumbers() {
