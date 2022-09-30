@@ -1,39 +1,21 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-# This workflow will build a Java project with Gradle and cache/restore any dependencies to improve the workflow execution time
-# For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-gradle
-
-name: Java CI with Gradle
-
+name: JAVA CI
 on:
   push:
-    branches: [ "feature/lab3" ]
+    branches: ['main']
   pull_request:
-    branches: [ "feature/lab3" ]
-
-permissions:
-  contents: read
-
+    branches: ['main']
 jobs:
   build:
-
+    name: Build
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v3
-      - name: Run chmod to make gradlew executable
-        run: chmod +x ./gradlew
-      - name: Set up JDK 16
-        uses: actions/setup-java@v3
+      - uses: actions/checkout@v2
         with:
-          java-version: '16'
-          distribution: 'temurin'
-      - name: Build with Gradle
-        uses: gradle/gradle-build-action@67421db6bd0bf253fb4bd25b31ebb98943c375e1
+          fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+      - name: Set up JDK 15
+        uses: actions/setup-java@v1
         with:
-          arguments: build
+          java-version: 15
       - name: Cache SonarCloud packages
         uses: actions/cache@v1
         with:
@@ -50,4 +32,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: gradle test jacocoTestReport sonarqube
+        run: |
+          ./gradlew test
+          ./gradlew jacocoTestReport
+          ./gradlew build sonarqube --info
