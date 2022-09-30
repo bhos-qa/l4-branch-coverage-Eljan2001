@@ -56,6 +56,6 @@ class Myownclass1$ {
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("yay");
+        System.out.println(1);
     }
 }
