@@ -56,7 +56,6 @@ class myownclass {
 
 public class Main {
     public static void main(String[] args) {
-        myownclass myclass = new myownclass();
-        System.out.println(myclass.multiplyNumbers(2,5));
+        System.out.println("yay");
     }
 }
