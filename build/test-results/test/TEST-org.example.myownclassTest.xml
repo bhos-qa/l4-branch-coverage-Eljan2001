@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.myownclassTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-09-30T07:00:24" hostname="BEST-KOMP" time="0.035">
+<testsuite name="org.example.myownclassTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-09-30T07:23:40" hostname="BEST-KOMP" time="0.042">
   <properties/>
-  <testcase name="subtractNumbers()" classname="org.example.myownclassTest" time="0.026"/>
-  <testcase name="square()" classname="org.example.myownclassTest" time="0.001"/>
-  <testcase name="divideNumbers()" classname="org.example.myownclassTest" time="0.0"/>
+  <testcase name="subtractNumbers()" classname="org.example.myownclassTest" time="0.03"/>
+  <testcase name="square()" classname="org.example.myownclassTest" time="0.002"/>
+  <testcase name="divideNumbers()" classname="org.example.myownclassTest" time="0.001"/>
   <testcase name="addNumbers()" classname="org.example.myownclassTest" time="0.001"/>
-  <testcase name="multiplyNumbers()" classname="org.example.myownclassTest" time="0.001"/>
+  <testcase name="multiplyNumbers()" classname="org.example.myownclassTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
