@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.myownclassTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-09-29T09:08:49" hostname="BEST-KOMP" time="0.041">
+<testsuite name="org.example.myownclassTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-09-30T06:50:50" hostname="BEST-KOMP" time="0.035">
   <properties/>
-  <testcase name="subtractNumbers()" classname="org.example.myownclassTest" time="0.031"/>
+  <testcase name="subtractNumbers()" classname="org.example.myownclassTest" time="0.025"/>
   <testcase name="square()" classname="org.example.myownclassTest" time="0.001"/>
   <testcase name="divideNumbers()" classname="org.example.myownclassTest" time="0.001"/>
   <testcase name="addNumbers()" classname="org.example.myownclassTest" time="0.001"/>
