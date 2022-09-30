@@ -47,7 +47,7 @@ class myownclassTest {
     }
     @Test
     void sixthpower() {
-        Assertions.assertEquals(829,myCLASS.sixthpower(3));
+        Assertions.assertEquals(729,myCLASS.sixthpower(3));
     }
     @Test
     void printitself() {
