@@ -8,9 +8,9 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class Myownclass1$Test {
-    Myownclass1$Test myCLASS;
+    Myownclass1$ myCLASS;
     @BeforeEach
-    void setUp() {myCLASS = new Myownclass1$Test(); }
+    void setUp() {myCLASS = new Myownclass1$(); }
 
     @Test
     void addNumbers() {
