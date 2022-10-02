@@ -13,7 +13,8 @@ Statement Coverage:
 
 Predicate Coverage:
 
-  Predicate coverage is also known as Condition Coverage in which each one of the Boolean expression have been evaluated to both TRUE and FALSE. Example:
+  Predicate coverage is also known as Condition Coverage in which each one of the Boolean expression have been evaluated to both TRUE and FALSE. 
+  Example:
   
   ![image](https://user-images.githubusercontent.com/71328317/193444297-371a2a0c-84dc-41f9-a113-0391fb0fe824.png)
    
