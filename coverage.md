@@ -1,31 +1,19 @@
-Statement coverage: Statement coverage refers to executing individual
-program statements and observing the outcome.
-We say that 100% statement coverage has been
-achieved if all the statements have been
-executed at least once.The basic problem is to select a few feasible
-paths to cover all the nodes of a CFG in order to
-achieve the complete statement coverage
-criterion. We follow these rules while selecting
-paths:
+Code Coverage: 
 
-• Select short paths.
+  Code coverage is a simple metric to measure the effectiveness of your tests; increasing it helps you spot problems. That gives teams confidence in their tests, and increases the quality of your code. 
+  To calculate the code coverage percentage, simply use the following formula: Code Coverage Percentage = (Number of lines of code executed by a testing algorithm/Total number of lines of code in a system component) * 100.
 
-• Select paths of increasingly longer length. Unfold
-a loop several times if
-there is a need.
+Branch Coverage:
 
-• Select arbitrarily long, “complex” paths.
+  Branch coverage is a metric that indicates whether all branches in a codebase are exercised by tests. To calculate Branch Coverage, one has to find out the minimum number of paths which will ensure that all the edges are covered.
 
-Branch coverage: Covering a branch means
-selecting a path that includes the branch.
-Complete branch coverage means selecting
-a number of paths such that every branch is
-included in at least one path.
+Statement Coverage: 
 
-Predicate coverage: If all possible combinations of truth values
-of the conditions affecting a selected path
-have been explored under some tests,
-then we say that predicate coverage has
-been achieved.
+  Statement coverage technique is used to design white box test cases. All the statements should be executed at least once in the source code.
 
+Predicate Coverage:
+
+  Predicate coverage is also known as Condition Coverage in which each one of the Boolean expression have been evaluated to both TRUE and FALSE.
+  Example code of condition coverage below image link:
+  ![image](https://user-images.githubusercontent.com/71328317/193444297-371a2a0c-84dc-41f9-a113-0391fb0fe824.png)
    
